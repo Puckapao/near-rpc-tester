@@ -25,7 +25,7 @@ cp .env.sample .env
 
 4. Run the script
 ```
-npm near.js
+node near.js
 ```
 ------------
 ## CONFIGS
