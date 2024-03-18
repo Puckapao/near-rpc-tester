@@ -39,6 +39,9 @@ node near.js
 
 ```MAX_AMOUNT```    = "Max token to send each time" ie. 1000000000000000000000 = 0.0001
 
-```MIN_INTERVAL```  = Minimum of interval time, Will be used in random interval time
+```MIN_INTERVAL```  = Minimum of interval time (seconds), Will be used in random interval time​
 
-```MAX_INTERVAL```  = Maximum of interval time, Will be used in random interval time
+```MAX_INTERVAL```  = Maximum of interval time (seconds), Will be used in random interval time
+
+> [!CAUTION]
+> Too short interval might cause failure response from wallet RPC. Suggestion: minimum 60 seconds
