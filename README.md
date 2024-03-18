@@ -2,7 +2,7 @@
 This is experimental script to explore NEAR's RPC APIs and interacti with it. Please use with caution.
 
 > [!CAUTION]
-> *** This is only for testnet, not recommend for mainnet use. And it requires private key of sender wallet, so please use burner wallets ***
+> This is only for testnet, not recommend for mainnet use. And it requires private key of sender wallet, so please use burner wallets.
 
 ------------
 ## INSTALLATION
@@ -30,9 +30,15 @@ npm near.js
 ------------
 ## CONFIGS
 ```ID```            = "Sender wallet's ID" ie. "sender.wallet"
+
 ```PRIVATE_KEY```   = "Sender wallet's private key"
+
 ```RPC```           = "RPC URL"
+
 ```RECEIVER```      = "Receiver wallet's ID" ie. "reciever.testnet"
+
 ```MAX_AMOUNT```    = "Max token to send each time" ie. 1000000000000000000000 = 0.0001
+
 ```MIN_INTERVAL```  = Minimum of interval time, Will be used in random interval time
+
 ```MAX_INTERVAL```  = Maximum of interval time, Will be used in random interval time
