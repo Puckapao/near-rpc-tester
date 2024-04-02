@@ -1,12 +1,22 @@
 {
-  "name": "nearlava",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@puckapao/near-rpc-tester",
+  "version": "1.0.1",
+  "description": "Testing RPC on NEAR Protocol",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "puckapao",
+    "email": "casval.pak@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Puckapao/near-rpc-tester"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/puckapao"
+  },
   "license": "ISC",
   "dependencies": {
     "big-integer": "^1.6.52",
