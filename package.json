@@ -1,18 +1,15 @@
 {
   "name": "@puckapao/near-rpc-tester",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Testing RPC on NEAR Protocol",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": {
-    "name": "puckapao",
-    "email": "casval.pak@gmail.com"
-  },
+  "author": "puckapao <casval.pak@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Puckapao/near-rpc-tester"
+    "url": "git+https://github.com/Puckapao/near-rpc-tester.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/puckapao"
@@ -24,5 +21,13 @@
     "cli-table": "^0.3.11",
     "dotenv": "^16.4.5",
     "near-api-js": "^3.0.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Puckapao/near-rpc-tester/issues"
+  },
+  "homepage": "https://github.com/Puckapao/near-rpc-tester#readme",
+  "devDependencies": {},
+  "keywords": [
+    "rpc"
+  ]
 }
